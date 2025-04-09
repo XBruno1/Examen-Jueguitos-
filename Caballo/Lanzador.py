@@ -1,6 +1,5 @@
-import pygame  # Importar la biblioteca Pygame para gráficos y eventos
 import sys
-
+import pygame
 class Lanzador:
     # Diccionario que define los movimientos válidos de cada tecla
     MOVIMIENTOS = {
@@ -106,7 +105,3 @@ class Lanzador:
 
         pygame.quit()
         sys.exit()
-
-# Ejecutar la simulación si se corre el script directamente
-if __name__ == "__main__":
-    Lanzador.ejecutar_simulacion()
